@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#10101a"/>
+  <rect x="30" y="30" width="740" height="540" rx="12" fill="#1a1a2e" stroke="#43e97b" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="400" y="260" text-anchor="middle" font-family="Arial" font-size="48" fill="#43e97b">👥</text>
+  <text x="400" y="320" text-anchor="middle" font-family="Arial" font-size="22" fill="#f0f0ff" font-weight="bold">Team / Event</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#7070a0">Replace with your event photo</text>
+</svg>

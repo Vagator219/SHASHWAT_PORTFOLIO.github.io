@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shashwat Bhadre | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <span class="loader-text">SB</span>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- Dark Mode Toggle -->
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+  <i class="fas fa-moon" id="themeIcon"></i>
+</button>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="nav-logo">SB<span class="dot">.</span></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#home" class="mobile-link">Home</a></li>
+    <li><a href="#about" class="mobile-link">About</a></li>
+    <li><a href="#achievements" class="mobile-link">Achievements</a></li>
+    <li><a href="#projects" class="mobile-link">Projects</a></li>
+    <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+    <li><a href="#contact" class="mobile-link">Contact</a></li>
+  </ul>
+</div>
+
+<!-- ========== HERO SECTION ========== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="grid-lines"></div>
+    <div class="floating-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge reveal-up">
+      <span class="badge-dot"></span>
+      B.Tech CSE · 2nd Semester · 2025
+    </div>
+    <h1 class="hero-title">
+      <span class="reveal-up delay-1">Shashwat</span><br/>
+      <span class="reveal-up delay-2">Bhadre<span class="accent">.</span></span>
+    </h1>
+    <p class="hero-subtitle reveal-up delay-3">
+      Developer · Designer · Innovator<br/>
+      <span class="university">MIT Vishwaprayag University</span>
+    </p>
+    <div class="hero-cta reveal-up delay-4">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="avatar-frame reveal-right">
+      <div class="avatar-ring ring1"></div>
+      <div class="avatar-ring ring2"></div>
+      <div class="avatar-inner">
+        <img src="assets/photos/profile.jpg" alt="Shashwat Bhadre" class="profile-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="avatar-placeholder" style="display:none"><i class="fas fa-user"></i></div>
+        <div class="avatar-tag">Open to Internships</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats reveal-up delay-5">
+    <div class="stat">
+      <span class="stat-num" data-count="3">0</span>+
+      <span class="stat-label">Projects</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-count="5">0</span>+
+      <span class="stat-label">Certificates</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-count="2">0</span>nd
+      <span class="stat-label">Semester</span>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ========== ABOUT SECTION ========== -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Who I Am</span>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal-left">
+        <p class="about-intro">
+          Hey! I'm <strong>Shashwat Bhadre</strong>, a passionate Computer Science student at MIT Vishwaprayag University, currently in my 2nd semester. I'm driven by curiosity and love building things that blend technology with creativity.
+        </p>
+        <p>
+          I enjoy solving problems through code, exploring AI applications, and designing intuitive digital experiences. My journey in tech has just begun, but I'm already diving deep into web development, design thinking, and emerging technologies.
+        </p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <strong>Education</strong>
+              <span>B.Tech CSE – MIT Vishwaprayag University</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Location</strong>
+              <span>India</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-calendar"></i>
+            <div>
+              <strong>Year</strong>
+              <span>1st Year · 2nd Semester · 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right reveal-right">
+        <div class="skills-block">
+          <h3>Interests & Goals</h3>
+          <div class="interest-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">AI & Machine Learning</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Open Source</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Cloud Computing</span>
+          </div>
+        </div>
+
+        <div class="skills-block">
+          <h3>Skills</h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-label"><span>HTML/CSS</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>JavaScript</span><span>65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>Python</span><span>70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label"><span>Design Thinking</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strengths-block">
+          <h3>Strengths</h3>
+          <div class="strength-list">
+            <div class="strength"><i class="fas fa-bolt"></i> Fast Learner</div>
+            <div class="strength"><i class="fas fa-users"></i> Team Player</div>
+            <div class="strength"><i class="fas fa-lightbulb"></i> Creative Thinker</div>
+            <div class="strength"><i class="fas fa-code"></i> Problem Solver</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ACHIEVEMENTS SECTION ========== -->
+<section class="achievements section" id="achievements">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Recognition</span>
+      <h2 class="section-title">Achievements & <span class="accent">Certificates</span></h2>
+    </div>
+
+    <div class="achievements-grid">
+      <div class="achievement-card reveal-up delay-1">
+        <div class="ach-icon"><i class="fas fa-brain"></i></div>
+        <div class="ach-badge">Certificate</div>
+        <h3>Coursera</h3>
+        <p>Completed online certification courses in technology and computer science fundamentals.</p>
+        <div class="ach-meta"><i class="fas fa-calendar-check"></i> 2024–2025</div>
+      </div>
+
+      <div class="achievement-card reveal-up delay-2">
+        <div class="ach-icon"><i class="fas fa-network-wired"></i></div>
+        <div class="ach-badge">Certificate</div>
+        <h3>NetCAD</h3>
+        <p>Networking fundamentals certification covering core networking concepts and infrastructure.</p>
+        <div class="ach-meta"><i class="fas fa-calendar-check"></i> 2024–2025</div>
+      </div>
+
+      <div class="achievement-card reveal-up delay-3">
+        <div class="ach-icon"><i class="fas fa-robot"></i></div>
+        <div class="ach-badge">Certificate</div>
+        <h3>Yuva AI</h3>
+        <p>AI literacy and artificial intelligence fundamentals certification for young learners.</p>
+        <div class="ach-meta"><i class="fas fa-calendar-check"></i> 2025</div>
+      </div>
+
+      <div class="achievement-card reveal-up delay-1">
+        <div class="ach-icon"><i class="fas fa-robot"></i></div>
+        <div class="ach-badge ach-project">Project</div>
+        <h3>Ai4A Project</h3>
+        <p>AI for All initiative — developed an AI-powered solution addressing real-world social challenges.</p>
+        <div class="ach-meta"><i class="fas fa-award"></i> Academic Project</div>
+      </div>
+
+      <div class="achievement-card reveal-up delay-2">
+        <div class="ach-icon"><i class="fas fa-pencil-ruler"></i></div>
+        <div class="ach-badge ach-project">Project</div>
+        <h3>Design Thinking</h3>
+        <p>Applied human-centered design methodology to solve complex problems with innovative solutions.</p>
+        <div class="ach-meta"><i class="fas fa-award"></i> Academic Project</div>
+      </div>
+
+      <div class="achievement-card reveal-up delay-3">
+        <div class="ach-icon"><i class="fas fa-seedling"></i></div>
+        <div class="ach-badge ach-project">Project</div>
+        <h3>ACE Project</h3>
+        <p>Academic Collaborative Experience — worked in teams to build and present an innovative tech solution.</p>
+        <div class="ach-meta"><i class="fas fa-award"></i> Academic Project</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS SECTION ========== -->
+<section class="projects section" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card large reveal-up delay-1">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Python</span><span>AI</span><span>Machine Learning</span>
+          </div>
+          <h3>AI for All (Ai4A)</h3>
+          <p>An AI-powered solution designed to address real-world social challenges, leveraging machine learning algorithms to provide accessible and intelligent assistance.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-2">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>UX</span><span>Design</span><span>Prototyping</span>
+          </div>
+          <h3>Design Thinking Project</h3>
+          <p>Human-centered design solution developed using empathy mapping, ideation, and rapid prototyping methodologies.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-3">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Team</span><span>Innovation</span><span>Tech</span>
+          </div>
+          <h3>ACE Project</h3>
+          <p>Collaborative team project focusing on innovative technological solutions in an academic competitive environment.</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal-up delay-1">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-overlay">
+            <a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="proj-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <h3>Digital Portfolio Website</h3>
+          <p>This very portfolio — a responsive, animated personal website built with pure HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GALLERY SECTION ========== -->
+<section class="gallery section" id="gallery">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Memories</span>
+      <h2 class="section-title">Photo <span class="accent">Gallery</span></h2>
+      <p class="section-sub">Photographs & Certificates — All in one place</p>
+    </div>
+
+    <div class="gallery-tabs">
+      <button class="gtab active" data-tab="all">All</button>
+      <button class="gtab" data-tab="photos">Photos</button>
+      <button class="gtab" data-tab="certificates">Certificates</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/coursera.jpg" alt="Coursera Certificate" class="gal-img"/>
+        <div class="gal-overlay"><span>📜 Coursera Certificate</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/netcad.svg" alt="NetCAD Certificate" class="gal-img"/>
+        <div class="gal-overlay"><span>🌐 NetCAD Certificate</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/yuva-ai.svg" alt="Yuva AI Certificate" class="gal-img"/>
+        <div class="gal-overlay"><span>🤖 Yuva AI Certificate</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/ai4a.svg" alt="Ai4A Project" class="gal-img"/>
+        <div class="gal-overlay"><span>🧠 Ai4A Project</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/design-thinking.svg" alt="Design Thinking" class="gal-img"/>
+        <div class="gal-overlay"><span>✏️ Design Thinking</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="certificates">
+        <img src="assets/certificates/ace-project.svg" alt="ACE Project" class="gal-img"/>
+        <div class="gal-overlay"><span>🌱 ACE Project</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="photos">
+        <img src="assets/photos/campus.svg" alt="Campus Life" class="gal-img"/>
+        <div class="gal-overlay"><span>🏛️ Campus Life</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="photos">
+        <img src="assets/photos/team-event.svg" alt="Team Event" class="gal-img"/>
+        <div class="gal-overlay"><span>👥 Team Events</span></div>
+      </div>
+      <div class="gal-item reveal-up" data-category="photos">
+        <img src="assets/photos/achievement.svg" alt="Achievement" class="gal-img"/>
+        <div class="gal-overlay"><span>🏆 Achievement</span></div>
+      </div>
+    </div>
+    <p class="gallery-note">📸 Upload your photographs and certificates to the <code>assets/</code> folder and replace placeholder images.</p>
+  </div>
+</section>
+
+<!-- ========== CONTACT SECTION ========== -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <h3>I'm open to opportunities!</h3>
+        <p>Whether you have an internship offer, a project collab, or just want to say hi — my inbox is always open.</p>
+
+        <div class="contact-links">
+          <a href="mailto:shashwat@email.com" class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <span>shashwat@email.com</span>
+            </div>
+          </a>
+          <a href="tel:+91XXXXXXXXXX" class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <span>+91 XXXXXXXXXX</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-item">
+            <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/shashwat-bhadre</span>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-item">
+            <div class="ci-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <strong>GitHub</strong>
+              <span>github.com/shashwatbhadre</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal-right">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required/>
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required/>
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">SB<span class="accent">.</span></div>
+    <p>Shashwat Bhadre · B.Tech CSE · MIT Vishwaprayag University · 2025</p>
+    <div class="footer-social">
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="footer-copy">Designed & Built by Shashwat Bhadre · 2025</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

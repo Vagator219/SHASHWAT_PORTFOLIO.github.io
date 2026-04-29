@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#10101a"/>
+  <rect x="30" y="30" width="740" height="500" rx="12" fill="#1a1a2e" stroke="#43e97b" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial" font-size="48" fill="#43e97b">✏️</text>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial" font-size="28" fill="#f0f0ff" font-weight="bold">DESIGN THINKING</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial" font-size="16" fill="#b0b0cc">Academic Project Certificate</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#7070a0">Replace with project photo or certificate</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial" font-size="12" fill="#7070a0">assets/certificates/design-thinking.jpg</text>
+</svg>

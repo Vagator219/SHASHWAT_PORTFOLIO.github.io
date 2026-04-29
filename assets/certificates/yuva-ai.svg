@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect width="800" height="560" fill="#10101a"/>
+  <rect x="30" y="30" width="740" height="500" rx="12" fill="#1a1a2e" stroke="#ff6584" stroke-width="2" stroke-dasharray="10,5"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial" font-size="48" fill="#ff6584">🤖</text>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial" font-size="28" fill="#f0f0ff" font-weight="bold">YUVA AI</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial" font-size="16" fill="#b0b0cc">AI Literacy Certificate</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#7070a0">Replace with your scanned certificate</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial" font-size="12" fill="#7070a0">assets/certificates/yuva-ai.jpg</text>
+</svg>
